@@ -1,0 +1,89 @@
+
+#logincard{
+    text-align: center;
+    position:absolute;
+    height:60vh;
+    width:80vw;
+    top:20vh;
+    left:10vw;
+    border:2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(153, 153, 153, 0);
+  
+}
+#username{ 
+    height: 30px;
+    width:50%;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left:25%;
+    border-radius: 15px;
+    border-width: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff48;
+}
+::placeholder{
+    font-family: 'quicksand',sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+}
+#pass{
+    position:absolute;
+    width:50%;
+    height: 30px;
+    top: 40%;
+    left:25%;
+    text-align: center;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: #6aa8f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#submit{
+    font-weight: bold;
+    font-family: 'Quicksand','sans-serif';
+    position:absolute;
+    top:55%;
+    left:25%;
+    width:50%;
+    height:40px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(#72acf5,#4f97ec,#2f81e5);
+}
+p1{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 2rem;
+    color:white}
+p2{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 1.5rem;
+    color:white
+    }
+#square{
+    position: absolute;
+    height:60vh;
+    width:60vh;
+    border-radius:60vh;
+    background-color: rgba(255, 255, 255, 0.329);
+    border:2px solid rgba(255, 255, 255, 0.329);
+    transform: rotate(45deg);
+   left:-25vh;
+   top:-25vh;
+}
+#yellow{
+    position: absolute;
+    bottom:2vh;
+    left:40vw;
+    background-color: yellow;
+    height:30px;
+    width:30px;
+    border-radius:30px;
+}
