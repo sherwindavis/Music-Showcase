@@ -1,4 +1,4 @@
 # MusicPlayer
 This is a Web Application of Music Player.  
 Try this out at - http://sdmusicplayer.rf.gd/   
-[ The default password is "hello"]  
+[ Default password is "hello"]  
